@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Distributor App" parallel="false" verbose = "1">
+	 
+	<test name="Login">
+		<classes>
+		    <class name="distributor_app.LoginTest"/>
+		</classes>
+	</test>
+		
+	 <test name="Two">
+	    <classes>
+			<class name="distributor_app.HomePageTest"/>
+		</classes>
+	</test>	
+		
+	 <test name="Three">
+    	<classes>
+			<class name="distributor_app.BalanceTransferTest"/> 
+		</classes>
+	</test>
+	 
+	<!-- 
+	<test name="Four">
+    	<classes>
+			<class name="pay1_distributor.MyProfile"/>
+		</classes>
+	</test>
+	
+	<test name="Five">
+    	<classes>
+			<class name="pay1_distributor.Reports"/>
+		</classes>
+	</test>
+	
+	<test name="Six">
+    	<classes>
+			<class name="pay1_distributor.Support"/>
+		</classes>
+	</test>	
+		    	    	    	    	    
+	<listeners>
+           	<listener class-name="lib.RetryListener"/>
+	   	    <listener class-name="lib.JyperionListener"/>
+	</listeners>
+ -->
+		
+</suite>
