@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Distributor App]">
+  <test name="Three(failed)">
+    <classes>
+      <class name="distributor_app.LoginTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- distributor_app.LoginTest -->
+      <class name="distributor_app.BalanceTransferTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="retailerTransfer"/>
+        </methods>
+      </class> <!-- distributor_app.BalanceTransferTest -->
+      <class name="distributor_app.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- distributor_app.HomePageTest -->
+    </classes>
+  </test> <!-- Three(failed) -->
+</suite> <!-- Failed suite [Distributor App] -->
