@@ -79,7 +79,7 @@ public class rechargeApi {
 					  			parameters("method","authenticate_New").
 					  			parameters("uuid","2701070875").
 					  			parameters("mobile",e.getrawData(sheetName, i, 0)).
-					  			parameters("password","12345").
+					  			parameters("password","xxxxx").
 					  			parameters("latitude","19.1842585").
 					  			parameters("longitude","72.8319192").
 					  			parameters("device_type","web").
