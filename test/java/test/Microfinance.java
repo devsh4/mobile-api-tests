@@ -54,9 +54,6 @@ public class Microfinance {
 	  
 	  //Set baseUri
 	  RestAssured.baseURI	=	"http://stagingmicrofinance.pay1.in";
-
-	  //tokens[0]	=	getToken("7101000521", "12345");
-	  //tokens[1]	=	getToken( "7101000522", "12345");
 	  lenderToken	=	getToken("9820817908", "1010");
 	  
   }
