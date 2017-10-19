@@ -26,15 +26,15 @@ public class PlatformApis {
 
 		//APIS
 		
-		//authenticate();
-		//verifyOtpAuthenticate();
-		//profileApi();
-		//balanceApi();
-		//walletHistory();
-		//changePin();
+		authenticate();
+		verifyOtpAuthenticate();
+		profileApi();
+		balanceApi();
+		walletHistory();
+		changePin();
 		//verifyOTPChangePin();
-		//deviceInfoUpdate();
-		//uploadDoc();
+		deviceInfoUpdate();
+		uploadDoc();
 	
 	}
 	
@@ -61,7 +61,7 @@ public class PlatformApis {
 		  resp	=	given().
 				  		params("req", encoded).
 				  	when().
-				  		post("http://uatpanel.pay1.in/platform/apis").
+				  		post("http://xxxxxxxx/platform/apis").
 				  	then().
 				  		//contentType(ContentType.JSON).
 				  		assertThat().
@@ -150,7 +150,7 @@ public class PlatformApis {
 				data.put("mobile","7101000522");
 				data.put("password","12345");
 				data.put("version_code","68");
-				data.put("uuid","2701070873"); //2701070875
+				data.put("uuid","2701070875");
 		
 				platformApiTest(convertAndEncrypt(data));
 
@@ -177,7 +177,7 @@ public class PlatformApis {
 				data.put("app_name","smartpay");
 				data.put("mobile", "7101000522");
 				data.put("otp", "771555");
-				data.put("pin", "11111");
+				data.put("pin", "xxxxx");
 				
 				platformApiTest(convertAndEncrypt(data));
 
