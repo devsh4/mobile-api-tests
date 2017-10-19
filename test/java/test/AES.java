@@ -14,7 +14,7 @@ public class AES {
 	    private final Cipher cipher;
 	    private final SecretKeySpec key;
 	    private AlgorithmParameterSpec spec;
-	    public static final String SEED_16_CHARACTER = "ARMjU1M674OUZ4Qz";
+	    public static final String SEED_16_CHARACTER = ""; //salt
 
 	    public AES() throws Exception {
 	    	
