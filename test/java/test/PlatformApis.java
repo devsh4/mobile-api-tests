@@ -18,7 +18,7 @@ public class PlatformApis {
 	//Declare global variables
 	static Response resp;	
 	public	static	String	encrypted;
-	public	static	String	token	=	"2kc1pimmashf4jb8s1odkns7g0";
+	public	static	String	token	=	"xxxxxxxxxxxxxxxx";
 	public	static	String	userId	=	"11470265";
 	
 	//Test cases for platform apis
@@ -86,7 +86,7 @@ public class PlatformApis {
 				  		params("req", encoded).
 				  		//params("document[]", f).
 				  	when().
-				  		post("http://uatpanel.pay1.in/platform/apis").
+				  		post("http://xxxxxxxx/platform/apis").
 				  	then().
 				  		//contentType(ContentType.JSON).
 				  		statusCode(200).
