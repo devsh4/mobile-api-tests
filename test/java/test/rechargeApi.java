@@ -27,7 +27,7 @@ public class rechargeApi {
 	  @Test(priority=1)
 	  public void setUp(){
 		  
-		  RestAssured.baseURI	=	"http://uatpanel.pay1.in";
+		  RestAssured.baseURI	=	"http://xxxxxxxxxxxxxxxx";
 		 
 		 //Method to get and store sessionId 
 		  getCookies();
