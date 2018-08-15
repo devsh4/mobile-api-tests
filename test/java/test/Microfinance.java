@@ -28,7 +28,7 @@ public class Microfinance {
 	public	static	String	offerAcceptMsg	=	"Borrower successfully accepted the offer";
 	
 	//Dynamic borrower Token
-	//public	static	String	borrowerToken	=	"av7ntlij3ktm1i4emgfujpufg1";
+	//public	static	String	borrowerToken	=	"xxxxxxxxxxxxxxxx";
 	//public	static	String	user_id	=	"40649519";
 
 	//Declare variables
@@ -39,7 +39,7 @@ public class Microfinance {
     
     
     //Array
-    public static String[] userId	=	{"47007315","47007593"};//11470265 -> 
+    public static String[] userId	=	{"47007315","47007593"};
     public static String[] tokens	=	new String[5];	
   
    //SET PRIORITIES for all tests
@@ -167,7 +167,7 @@ public class Microfinance {
 		  		when().
 		  		//get offer_id from offered loans
 		  		//params- offer_id,token(borrower), uer_id,pwd
-		  			get("/offerAccept?offer_id=13&token="+tokens[0]+"&user_id="+userId[0]+"&pwd=12345").
+		  			get("/offerAccept?offer_id=13&token="+tokens[0]+"&user_id="+userId[0]+"&pwd=xxxxxxxx").
 		  		then().
 		  			body("status", equalTo("success")).
 		  			body("description.msg", equalTo(offerAcceptMsg)).
